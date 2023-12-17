@@ -26,7 +26,7 @@ jobs:
           node-version: 18.x
           cache: "pnpm"
       - name: Setup npmrc
-        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
+        run: echo "registry=https://registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}\nalways-auth=true" > .npmrc
 
       - run: pnpm install --frozen-lockfile
       - name: Create Release Pull Request or Publish
