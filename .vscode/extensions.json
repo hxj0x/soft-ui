@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss",
+        "usernamehw.errorlens",
+        "k--kato.intellij-idea-keybindings",
+        "dbaeumer.vscode-eslint",
+        "pkief.material-icon-theme"
+    ]
+}
