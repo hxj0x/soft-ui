@@ -4,7 +4,7 @@ import { ButtonExample } from "./examples/ButtonExample";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <React.StrictMode>
-    <ButtonExample />
-  </React.StrictMode>
+    <React.StrictMode>
+        <ButtonExample />
+    </React.StrictMode>,
 );

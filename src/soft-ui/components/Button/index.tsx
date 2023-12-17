@@ -3,17 +3,14 @@ import { ComponentProps } from "react";
 
 type ButtonProps = ComponentProps<"button">;
 export const Button = (props: ButtonProps) => {
-  return (
-    <button
-      className={cn(
-        "w-full h-full text-blue-400 border p-2 rounded",
-        "text-white"
-      )}
-      {...props}
-    />
-  );
+    return (
+        <button
+            className={cn("h-full w-full rounded border p-2 text-blue-400", "text-white")}
+            {...props}
+        />
+    );
 };
 
 export const ButtonGroup = () => {
-  return <div>ButtonGroup</div>;
+    return <div>ButtonGroup</div>;
 };
