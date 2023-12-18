@@ -1,10 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { ButtonExample } from "./examples/ButtonExample";
+import { SpinnerExample } from "./examples/SpinnerExample";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
     <React.StrictMode>
-        <ButtonExample />
+        {/* <ButtonExample /> */}
+        <SpinnerExample />
     </React.StrictMode>,
 );
